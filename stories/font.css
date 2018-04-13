@@ -1,0 +1,58 @@
+/* clearSans */
+@font-face{
+    font-family:"ClearSans_Bold";
+    src:url('../src/universal/assets/font/clearsans_bold_webfont.woff') format('woff'),
+		url('../src/universal/assets/font/clearsans_bold_webfont.ttf') format('truetype');
+}
+@font-face{
+    font-family:"ClearSans_Regular";
+    src:url('../src/universal/assets/font/clearsans_regular_webfont.woff') format('woff'),
+		url('../src/universal/assets/font/clearsans_regular_webfont.ttf') format('truetype');
+}
+@font-face{
+    font-family:"ClearSans_Light";
+    src:url('../src/universal/assets/font/clearsans_light_webfont.woff') format('woff'),
+        url('../src/universal/assets/font/clearsans_light_webfont.ttf') format('truetype');
+}
+
+/* Noto sans TC */
+@font-face{
+    font-family:"NotoSansTC_Bold";
+    src:url('../src/universal/assets/font/NotoSansTC-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family:"NotoSansTC_Regular";
+    src:url('../src/universal/assets/font/NotoSansTC-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family:"NotoSansTC_Light";
+    src:url('../src/universal/assets/font/NotoSansTC-Light.otf') format('opentype');
+}
+
+/* Noto sans SC */
+@font-face{
+    font-family:"NotoSansSC_Bold";
+    src:url('../src/universal/assets/font/NotoSansSC-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family:"NotoSansSC_Regular";
+    src:url('../src/universal/assets/font/NotoSansSC-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family:"NotoSansSC_Light";
+    src:url('../src/universal/assets/font/NotoSansSC-Light.otf') format('opentype');
+}
+
+/* Noto sans JP */
+@font-face{
+    font-family:"NotoSansJP_Bold";
+    src:url('../src/universal/assets/font/NotoSansJP-Bold.otf') format('opentype');
+}
+@font-face{
+    font-family:"NotoSansJP_Regular";
+    src:url('../src/universal/assets/font/NotoSansJP-Regular.otf') format('opentype');
+}
+@font-face{
+    font-family:"NotoSansJP_Light";
+    src:url('../src/universal/assets/font/NotoSansJP-Light.otf') format('opentype');
+}
