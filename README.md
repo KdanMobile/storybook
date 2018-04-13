@@ -1,6 +1,6 @@
 ## Kdan Story book
 -
-*Typography, Buttons
+Typography, Buttons
 
 
 How to
@@ -11,4 +11,4 @@ npm run storybook
 *build static -*
 npm run build-storybook
 
-*All necessary static files will be generated within a hidden ".out" folder.
+*All necessary static files will be generated within "docs" folder.
