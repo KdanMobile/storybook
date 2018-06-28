@@ -8,7 +8,8 @@ import { withKnobs, text, object } from '@storybook/addon-knobs/react';
 
 import './font.css'
 import styles from './style.css'
-import MainBtn from '../src/universal/components/MainBtn';
+import MainBtn from '../src/universal/components/MainBtn'
+import data from '../src/universal/data/btn'
 
 
 const stories = storiesOf('Buttons', module)
@@ -45,6 +46,7 @@ stories.add('Primary', () => {
 				<div>. 按鈕文案字母開頭大寫，不可全部大寫</div>
 				<div>. 請勿在不同頁面上出現意思相同的語彙卻文案不一樣的狀況</div>
 				<div>. 浮動按鈕位置請固定於畫面右下角</div>
+				<div>. 有圖示的按鈕僅限於Medium button</div>
 				<div>. 分類規範<br/>
 					<table>
 						<tbody>
@@ -58,35 +60,22 @@ stories.add('Primary', () => {
 			<hr/>
 
 			<div className={styles.content}>
-				<div>
-					<span>Large</span>
-					<MainBtn text={text('btn-large', 'large', 'GROUP-BTN')} />
-				</div>
-
-				<div>
-					<span>Medium</span>
-					<MainBtn text={text('btn-medium', 'medium', 'GROUP-BTN')} isMedium={true} />
-				</div>
-
-				<div>
-					<span>Small</span>
-					<MainBtn text={text('btn-small', 'small', 'GROUP-BTN')} isSmall={true} />
-				</div>
-
-				<div>
-					<span>Reverse</span>
-					<MainBtn text={text('btn-reverse', 'reverse', 'GROUP-BTN')} isReverse={true} />
-				</div>
-
-				<div>
-					<span>Disabled</span>
-					<MainBtn text={text('btn-disabled', 'disabled', 'GROUP-BTN')} isDisabled={true} />
-				</div>
-
-				<div>
-					<span>With Icon</span>
-					<MainBtn text={text('btn-icon', 'icon', 'GROUP-BTN')} icon={'https://www.kdanmobile.com/static/6effa33875aa96d45783d6bcaa5e4415.gif'} />
-				</div>	
+				{
+					data.btns.map((btn, indx) =>
+						<div className={styles.card+' '+styles.full}>
+							<div className={styles.title}><h3>{ btn.title }</h3></div>
+							<div className={styles.style}>
+								<div className={styles.blk+ ' '+styles.full} dangerouslySetInnerHTML={{ __html: `${btn.style}` }} /></div>
+							{
+								data.strings.text.map((string, idx) =>
+									<MainBtn 
+										{...btn.property}
+										text={text(string.lang, string.text, string.group)} />
+								)
+							}
+						</div>
+					)
+				}
 			</div>	
 		</div>
 	)	

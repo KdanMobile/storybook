@@ -20,10 +20,10 @@ class MainBtn extends React.Component {
 			isDisabled } = this.props
 
 		const btnClass  = cx(styles.mainBtn, {
-		  [styles.medium]: isMedium || icon,
-		  [styles.small]: isSmall,
-		  [styles.reverse]: isReverse,
-		  [styles.disabled]: isDisabled,
+			[styles.medium]: isMedium || icon,
+		  	[styles.small]: isSmall,
+		  	[styles.reverse]: isReverse,
+		  	[styles.disabled]: isDisabled,
 		})
 
 	  	return (
