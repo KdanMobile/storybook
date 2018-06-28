@@ -62,15 +62,17 @@ stories.add('Primary', () => {
 			<div className={styles.content}>
 				{
 					data.btns.map((btn, indx) =>
-						<div className={styles.card+' '+styles.full}>
+						<div key={indx} className={styles.card+' '+styles.full}>
 							<div className={styles.title}><h3>{ btn.title }</h3></div>
 							<div className={styles.style}>
 								<div className={styles.blk+ ' '+styles.full} dangerouslySetInnerHTML={{ __html: `${btn.style}` }} /></div>
 							{
 								data.strings.text.map((string, idx) =>
 									<MainBtn 
+										key={idx}
 										{...btn.property}
-										text={text(string.lang, string.text, string.group)} />
+										lang={string.lang}
+										text={text(string.label, string.text, string.group)} />
 								)
 							}
 						</div>

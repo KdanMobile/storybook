@@ -13,10 +13,10 @@ h1 {
 	line-height: 1.2;
 	margin-bottom: 30px;
 
-	&.en { font-family: 'ClearSans_Regular', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Regular', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Regular', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Regular', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Regular', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Regular', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Regular', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Regular', sans-serif; }
 }
 
 h2 {
@@ -24,10 +24,10 @@ h2 {
 	line-height: 1.15;
 	margin-bottom: 30px;
 
-	&.en { font-family: 'ClearSans_Bold', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Bold', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Bold', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Bold', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Bold', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Bold', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Bold', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Bold', sans-serif; }
 }
 
 h3 {
@@ -35,10 +35,10 @@ h3 {
 	line-height: 1.15;
 	margin-bottom: 20px;
 
-	&.en { font-family: 'ClearSans_Regular', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Regular', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Regular', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Regular', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Regular', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Regular', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Regular', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Regular', sans-serif; }
 }
 
 h4 {
@@ -46,10 +46,10 @@ h4 {
 	line-height: 1.15;
 	margin-bottom: 10px;
 
-	&.en { font-family: 'ClearSans_Regular', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Regular', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Regular', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Regular', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Regular', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Regular', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Regular', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Regular', sans-serif; }
 }
 
 b1 {
@@ -57,10 +57,10 @@ b1 {
 	font-size: 22px;
 	line-height: 1.5;
 
-	&.en { font-family: 'ClearSans_Regular', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Regular', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Regular', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Regular', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Regular', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Regular', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Regular', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Regular', sans-serif; }
 }
 
 b2 {
@@ -68,10 +68,10 @@ b2 {
 	font-size: 20px;
 	line-height: 1.5;
 
-	&.en { font-family: 'ClearSans_Light', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Light', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Light', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Light', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Light', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Light', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Light', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Light', sans-serif; }
 }
 
 b3 {
@@ -79,10 +79,10 @@ b3 {
 	font-size: 20px;
 	line-height: 1.5;
 
-	&.en { font-family: 'ClearSans_Light', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Light', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Light', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Light', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Light', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Light', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Light', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Light', sans-serif; }
 }
 
 b4 {
@@ -91,10 +91,10 @@ b4 {
 	font-style: italic;
 	line-height: 1.5;
 
-	&.en { font-family: 'ClearSans_Light', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Light', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Light', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Light', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Light', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Light', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Light', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Light', sans-serif; }
 }
 
 b5 {
@@ -102,10 +102,10 @@ b5 {
 	font-size: 14px;
 	line-height: 1.5;
 
-	&.en { font-family: 'ClearSans_Light', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Light', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Light', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Light', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Light', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Light', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Light', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Light', sans-serif; }
 }
 
 .tooltip {
@@ -113,17 +113,17 @@ b5 {
 	font-size: 12px;
 	line-height: 1.5;
 
-	&.en { font-family: 'ClearSans_Light', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Light', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Light', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Light', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Light', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Light', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Light', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Light', sans-serif; }
 }
 
 div, p, span, li {
-	&.en { font-family: 'ClearSans_Regular', sans-serif; }
-	&.tw { font-family: 'NotoSansTC_Regular', sans-serif; }
-	&.cn { font-family: 'NotoSansSC_Regular', sans-serif; }
-	&.jp { font-family: 'NotoSansJP_Regular', sans-serif; }
+	&:lang(en) { font-family: 'ClearSans_Regular', sans-serif; }
+	&:lang(tw) { font-family: 'NotoSansTC_Regular', sans-serif; }
+	&:lang(cn) { font-family: 'NotoSansSC_Regular', sans-serif; }
+	&:lang(jp) { font-family: 'NotoSansJP_Regular', sans-serif; }
 }
 
 .wrapper {

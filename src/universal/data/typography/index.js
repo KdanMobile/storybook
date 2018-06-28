@@ -3,45 +3,53 @@ export default {
 	strings: {
 		title: [
 			{
-				lang: 'title-en',
+				label: 'title-en',
 				text: 'alohaa',
+				lang: 'en',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 			{
-				lang: 'title-tw',
+				label: 'title-tw',
 				text: '妳好啊',
+				lang: 'tw',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 			{
-				lang: 'title-cn',
+				label: 'title-cn',
 				text: '阿啰哈',
+				lang: 'cn',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 			{
-				lang: 'title-jp',
+				label: 'title-jp',
 				text: 'こんにちは',
+				lang: 'jp',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 		],
 		sub: [
 			{
-				lang: 'sub-en',
+				label: 'sub-en',
 				text: 'Im sub title',
+				lang: 'en',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 			{
-				lang: 'sub-tw',
+				label: 'sub-tw',
 				text: '我是副標題',
+				lang: 'tw',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 			{
-				lang: 'sub-cn',
+				label: 'sub-cn',
 				text: '我是副标题',
+				lang: 'cn',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 			{
-				lang: 'sub-jp',
+				label: 'sub-jp',
 				text: '俺サブタイトル',
+				lang: 'jp',
 				group: 'GROUP-TYPOGRAPHY'
 			},
 		]

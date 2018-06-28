@@ -12,6 +12,8 @@ class MainBtn extends React.Component {
 	render() {
 		
 		const { 
+			lang,
+
 			text,
 			icon,
 			isMedium,
@@ -27,12 +29,10 @@ class MainBtn extends React.Component {
 		})
 
 	  	return (
-	  		<div>
-			    <div className={ btnClass }>
-			    	{ icon?<div className={ styles.btnIcon }><img src={ icon } alt='btn-icon' /></div>:null }
-			    	<div className={ styles.btnText }>{ text }</div>
-			    </div>	
-			</div>    
+	  		<div className={ btnClass }>
+		    	{ icon?<div className={ styles.btnIcon }><img src={ icon } alt='btn-icon' /></div>:null }
+		    	<div lang={lang} className={ styles.btnText }>{ text }</div>
+		    </div>    
 		)
 	}
 	

@@ -46,8 +46,8 @@ stories.add('Typography', () => {
 								{
 									data.strings.title.map((string, indx) => 
 										<div key={indx} className={styles.dm}>
-											<font.main.tag>{text(data.strings.title[indx].lang, data.strings.title[indx].text, data.strings.title[indx].group)}</font.main.tag>
-											<font.sub.tag>{text(data.strings.sub[indx].lang, data.strings.sub[indx].text, data.strings.sub[indx].group)}</font.sub.tag>
+											<font.main.tag lang={string.lang}>{text(data.strings.title[indx].label, data.strings.title[indx].text, data.strings.title[indx].group)}</font.main.tag>
+											<font.sub.tag lang={string.lang}>{text(data.strings.sub[indx].label, data.strings.sub[indx].text, data.strings.sub[indx].group)}</font.sub.tag>
 										</div>	
 									)
 								}

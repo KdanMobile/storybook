@@ -3,23 +3,27 @@ export default {
 	strings: {
 		text: [
 			{
-				lang: 'text-en',
+				label: 'text-en',
 				text: 'Submit',
+				lang: 'en',
 				group: 'GROUP-BTN'
 			},
 			{
-				lang: 'text-tw',
+				label: 'text-tw',
 				text: '送出',
+				lang: 'tw',
 				group: 'GROUP-BTN'
 			},
 			{
-				lang: 'text-cn',
+				label: 'text-cn',
 				text: '提交',
+				lang: 'cn',
 				group: 'GROUP-BTN'
 			},
 			{
-				lang: 'text-jp',
+				label: 'text-jp',
 				text: '提出',
+				lang: 'jp',
 				group: 'GROUP-BTN'
 			},
 		],
